@@ -15,6 +15,7 @@ import shared
 
 class WebsocketOnBeforeStart:
     def __init__(self, getaway :str=None, url :str=None):
+        
         self.type = "WebsocketOnBeforeStart"
         self.getaway = getaway
         self.url :str = url
